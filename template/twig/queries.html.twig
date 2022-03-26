@@ -1,0 +1,16 @@
+{% if selected is defined
+    and selected is not empty %}
+
+    <div class="selected-items">
+        <hr class="my-1">
+        {% if selected is iterable %}
+            {% for item in selected %}
+                {% include get_template('query', _self) %}
+            {% endfor %}
+        {% else %}
+            {% include get_template('query', _self) with {
+                item: selected
+            } %}
+        {% endif %}
+    </div>
+{% endif %}

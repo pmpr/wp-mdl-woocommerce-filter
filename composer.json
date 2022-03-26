@@ -1,0 +1,25 @@
+{
+  "name": "pmpr-pkg/wp-pkg-woocommerce-filter",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Woocommerce Filter",
+  "keywords": [
+    "filter",
+    "package",
+    "wordpress",
+    "woocommerce"
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\WoocommerceFilter\\": "src/Pmpr/Package/WoocommerceFilter"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
+

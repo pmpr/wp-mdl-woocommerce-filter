@@ -1,0 +1,6 @@
+{% extends get_template('../card_collapsible', _self) %}
+
+{% block body %}
+    {{ parent() }}
+    {% include get_template('../type/' ~ type, _self) %}
+{% endblock %}
