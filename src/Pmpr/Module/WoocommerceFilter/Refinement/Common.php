@@ -4,4 +4,4 @@
     |             624015740b1a5             |
     |_______________________________________|
 */
- use Pmpr\Module\WoocommerceFilter\WoocommerceFilter; WoocommerceFilter::symcgieuakksimmu();
+ namespace Pmpr\Module\WoocommerceFilter\Refinement; use Pmpr\Module\WoocommerceFilter\Container; class Common extends Container { }

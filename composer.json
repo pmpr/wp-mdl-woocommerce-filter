@@ -1,5 +1,5 @@
 {
-  "name": "pmpr-pkg/wp-pkg-woocommerce-filter",
+  "name": "pmpr-mod/wp-mod-woocommerce-filter",
   "type": "project",
   "license": "proprietary",
   "description": "Woocommerce Filter",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\WoocommerceFilter\\": "src/Pmpr/Package/WoocommerceFilter"
+      "Pmpr\\Module\\WoocommerceFilter\\": "src/Pmpr/Module/WoocommerceFilter"
     },
     "files": [
       "index.php"
