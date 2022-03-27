@@ -1,2 +1,2 @@
-# wp-mod-woocommerce-filter
+# wp-mdl-woocommerce-filter
 
