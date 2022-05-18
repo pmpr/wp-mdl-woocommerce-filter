@@ -5,11 +5,14 @@
         <hr class="my-1">
         {% if selected is iterable %}
             {% for item in selected %}
-                {% include get_template('query', _self) %}
+                {% include get_template('query', _self) with {
+                    last: loop.last
+                } %}
             {% endfor %}
         {% else %}
             {% include get_template('query', _self) with {
-                item: selected
+                item: selected,
+                last: 1
             } %}
         {% endif %}
     </div>

@@ -10,8 +10,8 @@
           <div class="d-flex justify-content-between">
         {% endif %}
                 <div class="custom-control custom-{{ type }}">
-                    <input type="{{ type|esc_attr }}" name="{{ name|esc_attr }}" id="{{ name|esc_attr }}_{{ term.slug|esc_attr }}"
-                           value="{{ term.slug|esc_attr }}"
+                    <input type="{{ type|esc_attr }}" name="{{ name|esc_attr }}"
+                           id="{{ name|esc_attr }}_{{ term.slug|esc_attr }}" value="{{ term.slug|esc_attr }}"
                            data-slug="{{ term.slug|esc_attr }}" data-id="{{ term.slug|esc_attr }}"
                            class="custom-control-input" {{ checked(item.slug, value)|raw }}/>
                     <label class="custom-control-label" for="{{ name|esc_attr }}_{{ term.slug|esc_attr }}">{{ term.name|raw }}</label>
