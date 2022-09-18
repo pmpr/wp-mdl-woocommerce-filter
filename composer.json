@@ -21,6 +21,6 @@
       "index.php"
     ]
   },
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "version": "1.0.5"
 }
-
