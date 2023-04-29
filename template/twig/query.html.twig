@@ -2,6 +2,6 @@
    href="#" data-name="{{ item.name|esc_attr }}"
    data-value="{{ item.value|esc_attr }}"
    data-filter="{{ item.filter|esc_attr }}">
-    {{ render_icon('fasm/6/set/xmark', {class: 'icon-xxs icon-white mr-1'}, 1) }}
+    {{ render_icon(remove_icon, {class: 'icon-xxs icon-white mr-1'}, 1) }}
     <span>{{ item.title|raw }}</span>
 </a>

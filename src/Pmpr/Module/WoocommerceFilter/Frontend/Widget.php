@@ -4,4 +4,4 @@
     |             644d2460cc213             |
     |_______________________________________|
 */
- use Pmpr\Module\WoocommerceFilter\WoocommerceFilter; WoocommerceFilter::symcgieuakksimmu();
+ namespace Pmpr\Module\WoocommerceFilter\Frontend; use Pmpr\Common\Foundation\Widget as BaseClass; class Widget extends BaseClass { }

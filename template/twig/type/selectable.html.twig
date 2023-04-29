@@ -24,7 +24,7 @@
         <a href="#filter-{{ name|esc_attr }}-list" data-show="{{ show_title|esc_attr }}"
            data-hide="{{ hide_title|esc_attr }}" class="d-flex justify-content-center text-decoration-none filter-more rotate-180deg">
             <span>{{ show_title|raw }}</span>
-            {{ render_icon('fasm/6/set/angle-up', {class: 'icon-md'}) }}
+            {{ render_icon(arrow_up_icon, {class: 'icon-md'}) }}
         </a>
     {% endif %}
 {% endif %}
